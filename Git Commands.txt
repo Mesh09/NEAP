@@ -4,3 +4,4 @@ git pull (to get up to date)
 git add* oder git add <FILE>
 git commit -m"MESSAGE"
 git push
+bzw. git commit -a -m"MESSAGE"
