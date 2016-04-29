@@ -1,0 +1,2 @@
+			Number of Nodes 	Number of edges 	Network Density
+blood_vessel_top.gz	25825			70240269		0.2106
