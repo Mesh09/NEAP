@@ -1,14 +1,14 @@
 #!/bin/sh
 
-#NWDIR='/home/a/ansari/Desktop/NEAP/Testing'
-NWFILE='/home/proj/biocluster/NEAP_SS16/ansari/Solution1/test_paths.txt'
-NWOUT='/home/proj/biocluster/NEAP_SS16/ansari/Solution2/network_statistics.txt'
-SEED=$(awk "NR==$SGE_TASK_ID" $NWFILE)
-
+NWDIR='/home/a/ansari/Desktop/NEAP/Testing'
+NWFILE='/home/a/ansari/Desktop/NEAP/Task01/input_networks.txt'
+NWOUT='/home/a/ansari/Desktop/NEAP/Testing/test_stats.txt'
+#SEED=awk '$0=="current"' $NWFILE
+SEED='blood_vessel_top.gz'
 
 #Create a File to where the output is written to
-echo -e "\t\t\tNumber of Nodes \tNumber of edges \tNetwork Density\n" > $NWOUT
+echo -e "\t\t\tNumber of Nodes \tNumber of edges \tNetwork Density" > $NWOUT
 
-#echo $SEED
+echo $SEED
 #snap2 -i $SEQDIR/FASTA/$SEED -m all --print-collection -o $SEQDIR/Output/$SEED.snap2
-java -jar $NWDIR/NEAP-praktikum.jar -m1 -i$SEED > $NWOUT
+echo -E $(java -jar $NWDIR/NEAP_praktikum.jar -m1 -i$SEED) >> $NWOUT
