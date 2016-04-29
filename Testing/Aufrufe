@@ -1,0 +1,2 @@
+Task02:
+java -jar NEAP_praktikum.jar -m1 -iblood_vessel_top.gz > specOutput.txt
