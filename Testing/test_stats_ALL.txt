@@ -1,0 +1,3 @@
+			Number of Nodes 	Number of edges 	Network Density
+adipose_tissue.gz	615			1077		0.0029
+blood_vessel.gz	146			220		0.0104

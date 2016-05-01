@@ -1,0 +1,17 @@
+Task02:
+java -jar NEAP_praktikum.jar -m1 -iblood_vessel_top.gz > specOutput.txt
+
+Testing Threshhold:
+java -jar NEAP_praktikum.jar -m2 -iblood_vessel.gz -w0.7 > threshOutput.txt
+
+Testing Degree Distribution:
+java -jar NEAP_praktikum.jar -m1 -iblood_vessel_top.gz -d/home/a/ansari/Desktop/NEAP/Testing/deg_dis/ > specOutput.txt
+Corrcting for bashscript:
+java -jar NEAP_praktikum.jar -m1 -iblood_vessel_top.gz -d/home/a/ansari/Desktop/NEAP/Task02/degree_distribution/TOP/ |
+xargs -0 echo -e >> temp.txt
+
+
+changin all computation to also consider non 1 rows:
+gzip -cd /home/proj/biosoft/praktikum/NEAPprakt/assignments/data/ALL/blood_vessel.gz | head -n 5000000 > blood_vessel5Mio.txt
+gzip blood_vessel5Mio.txt
+java -jar NEAP_praktikum_test.jar -m2 -i > specOutput.txt

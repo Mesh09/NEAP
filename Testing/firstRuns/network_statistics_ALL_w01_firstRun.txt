@@ -1,0 +1,16 @@
+			Number of Nodes 	Number of edges 	Network Density
+thalamus.gz	2108			9835		0.0044
+thymocyte.gz	1157			2357		0.0035
+thyroid_gland.gz	1592			5635		0.0044
+subthalamic_nucleus.gz	1667			4677		0.0034
+tonsil.gz	1666			5352		0.0039
+t_lymphocyte.gz	1256			4692		0.0060
+tooth.gz	939			1709		0.0039
+tear_gland.gz	1452			4511		0.0043
+telencephalon.gz	2053			9993		0.0047
+umbilical_vein_endothelial_cell.gz	907			2729		0.0066
+vascular_endothelium.gz	914			2726		0.0065
+trachea.gz	1681			4959		0.0035
+trophoblast.gz	767			1258		0.0043
+umbilical_cord.gz	1144			3081		0.0047
+urinary_bladder.gz	1676			3920		0.0028

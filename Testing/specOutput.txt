@@ -1,1 +1,1 @@
-blood_vessel_top.gz	25825			70240269		0.2106
+blood_vessel_top.gz\t612\t\t\t961\t\t0.0051

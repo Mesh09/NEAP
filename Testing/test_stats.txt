@@ -1,2 +1,4 @@
 			Number of Nodes 	Number of edges 	Network Density
-blood_vessel_top.gz 25825 70240269 0.2106
+blood_vessel_top.gz	25825			70240269		0.2106
+adrenal_cortex_top.gz	25825			83588204		0.2507
+adipose_tissue_top.gz	25825			98052742		0.2941
